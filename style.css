@@ -1,19 +1,114 @@
-* {
-    background-color: black; color: orange; text-align: center;
+body {
+    background-color: black;
 }
 
-.title, h1, h2, h3 {
-     color: orange; font-weight: bold; text-align: center; margin-left: 10px;
+.title, h1, h2, h3 { font-weight: bold; color: orange;
+}
+p,
+li{color: orange;}
+.header-container{ 
+    display: flex; 
+    justify-content: space-between;
+    
+ }
+
+ .title-side{
+    display: flex;
+    justify-content: space-between;
+    color: orange
+ }
+
+
+ .main-content{
+    display: flex;
+    background-color: orangered;
+    
 }
 
-a, .mainlist{
-    text-align: center; color: orange; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; list-style-type: none; line-height: 3.5;
+.main-image{ margin: 30px auto;
 }
+
+.recipes-container {
+    height: 300px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+} 
 
 button {
-    width: 200px; height: 100px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  
+  margin: 0;
+  text-decoration: none;
+  background: black;
+  color: orange;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
-img {
-    margin-left: auto; margin-right: auto; height: auto; width: 400px;
+button:hover,
+button:focus {
+  background:rgb(255, 174, 0);
+  color: black
 }
+
+button:focus {
+  outline: 1px solid orange;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.main-content-home {
+  flex-direction: column;
+  margin-left: 50px;
+  justify-content: space-around;
+}
+
+.quote {
+  text-shadow: 2px 2px rgba(223, 148, 9, 0.733);
+}
+
+
+
+
+
+   /* .mbutton {
+    background-color: orange; 
+    border: none;
+    color: rgb(207, 114, 8);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .b1 {
+    background-color:rgb(207, 114, 8); 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .b1:hover {
+    background-color:rgb(240, 169, 39);
+    color: white;
+  } */
+
+ 
